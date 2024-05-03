@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<title>Calculatrice Simple</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <hr>
+<div class="calculatrice">
+  <h1>Calculatrice</h1>
+  <hr>
+  <input type="text" id="premier-nombre" placeholder="Premier nombre"> 
+
+  <input type="text" id="deuxieme-nombre" placeholder="Deuxième nombre">
+
+  <input type="text" id="troisieme-nombre" placeholder="Troisième nombre"><br><br><br>
+
+  <button onclick="calculer('+')">+</button>
+  <button onclick="calculer('-')">-</button>
+  <button onclick="calculer('*')">*</button>
+  <button onclick="calculer('/')">/</button><br> <br><br>
+  <div id="resultat">Résultat : </div>
+ <hr>
+</div>
+<script src="ca.js">
+</script>
+</body>
+</html>
